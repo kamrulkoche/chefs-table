@@ -3,6 +3,7 @@ import { IoTimerOutline } from "react-icons/io5";
 const Recipe = ({ recipe, handleClock }) => {
   //   console.log(recipe.recipe);
   const {
+    // recipe_id,
     recipe_image,
     recipe_name,
     short_description,
