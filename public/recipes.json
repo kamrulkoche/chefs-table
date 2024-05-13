@@ -1,0 +1,82 @@
+[
+    {
+      "recipe_id": "001",
+      "recipe_image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "recipe_name": "Basil Chicken Stir-Fry",
+      "short_description": "A delicious stir-fry featuring tender chicken, fresh basil, and mushrooms in a savory soy sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+        "recipe_id": "002",
+        "recipe_image": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "recipe_name": "Vegetable Pasta",
+        "short_description": "A comforting pasta dish with a medley of fresh vegetables tossed in a creamy sauce.",
+        "ingredients": [
+          "300 g pasta",
+          "150 g broccoli",
+          "200 g bell pepper",
+          "100 g carrot",
+          "1 onion",
+          "250 ml cream"
+        ],
+        "preparing_time": "25 min",
+        "calories": "280 calories"
+      },
+
+      {
+        "recipe_id": "003",
+        "recipe_image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "recipe_name": "Grilled Salmon with Lemon",
+        "short_description": "Fresh salmon fillets marinated in lemon and herbs, grilled to perfection.",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 lemons",
+          "2 tbsp olive oil",
+          "2 cloves garlic",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 min",
+        "calories": "350 calories"
+      },
+      {
+        "recipe_id": "004",
+        "recipe_image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "recipe_name": "Caprese Salad",
+        "short_description": "A classic Italian salad with ripe tomatoes, fresh mozzarella, and basil, drizzled with balsamic glaze.",
+        "ingredients": [
+          "4 ripe tomatoes",
+          "250 g fresh mozzarella",
+          "1 bunch fresh basil",
+          "2 tbsp balsamic glaze",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "15 min",
+        "calories": "200 calories"
+      },
+      {
+        "recipe_id": "005",
+        "recipe_image": "https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "recipe_name": "Beef Tacos",
+        "short_description": "Savory seasoned ground beef served in crispy taco shells with fresh toppings.",
+        "ingredients": [
+          "500 g ground beef",
+          "1 packet taco seasoning",
+          "8 taco shells",
+          "1 cup shredded lettuce",
+          "1 cup diced tomatoes",
+          "1 cup grated cheese",
+          "Sour cream and salsa for serving"
+        ],
+        "preparing_time": "20 min",
+        "calories": "400 calories"
+      }
+    ]
+    
+  
