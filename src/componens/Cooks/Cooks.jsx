@@ -4,10 +4,12 @@ import CurrentCooks from "../CurrentCooks/CurrentCooks";
 import Toast from "../Feedback/Toast";
 
 const Cooks = ({ clock, time }) => {
+  // console.log(clock);
   const [current, setCurrent] = useState([]);
+  // const [show, setShow] = useState();
 
   const handleCurrentCooks = (props) => {
-    // console.log(props.recipe_id);
+    // console.log(props);
     const newCurrent = [...current, props];
     setCurrent(newCurrent);
   };

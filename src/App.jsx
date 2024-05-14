@@ -6,9 +6,9 @@ import { useState } from "react";
 function App() {
   const [clock, setClock] = useState([]);
   const [time, setTime] = useState(false);
+
   const handleClock = (recipe) => {
     // console.log("Hello", recipe.recipe_id);
-
     let isValid = false;
     clock.map((item) => {
       if (item.recipe_id == recipe.recipe_id) {

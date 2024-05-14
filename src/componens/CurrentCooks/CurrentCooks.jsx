@@ -1,11 +1,11 @@
 const CurrentCooks = ({ current }) => {
-  //    console.log("Hello", current[0]);
-
   return (
     <>
       <h1 className="text-2xl font-semibold text-black text-center my-6">
         Currently cooking: {current.length}
       </h1>
+
+      {/* <h2>Total:{totalTime}</h2> */}
       <hr />
       <div className="overflow-x-auto">
         <table className="table">
@@ -23,7 +23,7 @@ const CurrentCooks = ({ current }) => {
               <tr>
                 <th>{currentValue.recipe_id}</th>
                 <td>{currentValue.recipe_name}</td>
-                <td>{currentValue.preparing_time}</td>
+                <td>{currentValue.preparing_time} min</td>
                 <td>{currentValue.calories}</td>
               </tr>
             </tbody>

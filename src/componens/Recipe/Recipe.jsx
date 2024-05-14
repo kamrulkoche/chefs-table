@@ -24,10 +24,7 @@ const Recipe = ({ recipe, handleClock }) => {
       <hr />
       <h2 className="text-lg font-medium">Ingredients: {ingredients.length}</h2>
       <ul className="space-y-4">
-        {/* <li> {ingredients[0]}</li>
-        <li>{ingredients[1]}</li>
-        <li>{ingredients[2]}</li>
-        <li>{ingredients[3]}</li> */}
+  
         {ingredients.map((ingredient, index) => (
           <li key={index}>{ingredient}</li>
         ))}
@@ -37,7 +34,7 @@ const Recipe = ({ recipe, handleClock }) => {
       <div className="flex gap-10">
         <div className="flex items-center gap-4">
           <MdAccessTime />
-          {preparing_time}
+          {preparing_time} min
         </div>
         <div className="flex items-center gap-4">
           <IoTimerOutline />

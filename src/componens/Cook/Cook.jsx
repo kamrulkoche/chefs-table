@@ -9,7 +9,7 @@ const Cook = ({ clock, handleCurrentCooks }) => {
         <tr>
           <th>{recipe_id}</th>
           <td>{recipe_name}</td>
-          <td>{preparing_time}</td>
+          <td>{preparing_time} min</td>
           <td>{calories}</td>
           <td>
             <button
