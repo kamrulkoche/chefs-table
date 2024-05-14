@@ -36,7 +36,7 @@ const Header = () => {
 
       <main className="mt-8">
         {/* <img src={bannerImg} alt="bannerImg" className="rounded-3xl bg-gradient-to-r from-cyan-500 to-blue-500 " /> */}
-        <div className="bg-[url('./images/banner.png')] w-100 h-[600px] bg-no-repeat bg-center rounded-2xl">
+        <div className="bg-[url('https://raw.githubusercontent.com/kamrulkoche/API-images-/main/chefs-table/banner.png?token=GHSAT0AAAAAACRGJKHNLD4IZRNZZDAAJ7OAZSDVOQQ')] w-100 h-[600px] bg-no-repeat bg-center rounded-2xl">
           <div className="text-white space-y-4 text-center pt-40 px-2">
             <h2 className="text-3xl lg:text-5xl font-bold leading-snug">
               Discover an exceptional cooking <br className="hidden lg:block" />{" "}
