@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       {/* <div>{time == true && <Toast />}</div> */}
-      <div className="container mx-auto mt-8 ">
+      <div className="container mx-auto mt-8 bg-white ">
         <Header></Header>
 
         <div className="grid lg:flex">
