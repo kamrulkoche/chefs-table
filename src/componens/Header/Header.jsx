@@ -43,10 +43,9 @@ const Header = () => {
               class tailored for you!
             </h2>
             <p className="text-lg font-normal left-6">
-              Learn and Master Basic Programming, Data Structures, Algorithm,
-              OOP, Database and solve 500+ coding{" "}
+            Keep it easy with these simple but delicious recipes. From make-ahead lunches and midweek meals to fuss-free 
               <br className="hidden md:block" />
-              problems to become an exceptionally well world-class Programmer.
+              sides and moreish cakes, we have got everything
             </p>
             <div className="flex justify-center gap-8">
               <button className="btn bg-green-400 hover:bg-green-500 border border-green-400 rounded-full text-black text-lg font-semibold ">
@@ -64,9 +63,7 @@ const Header = () => {
         <div className="text-center text-black space-y-4">
           <h2 className="text-4xl font-semibold">Our Recipes</h2>
           <p className="text-[#150B2B] text-lg">
-            Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
-            vulputate netus pharetra rhoncus. Eget <br /> urna volutpat
-            curabitur elementum mauris aenean neque.{" "}
+          Our Official List of the Best Food Network Kitchen Recipes
           </p>
         </div>
       </footer>
